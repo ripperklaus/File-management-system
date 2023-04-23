@@ -47,21 +47,21 @@ children. N-ary Tree should be implemented solve this. Since we do not
 know what will be the value of n, each node cannot have a fixed child
 links.
 
-<img src="media/image1.png" style="width:6.10057in;height:1.29637in" />
-
+<!-- <img src="media/image1.png" style="width:6.10057in;height:1.29637in" />
+ -->
 But if we think this as keeping the contents of a directory as a linked
 list and only storing the first child’s address, then each node can have
 exactly 2 links. This makes it possible to use algorithms of Binary Tree
 as well.
 
-<img src="media/image2.png" style="width:6.15959in;height:1.34741in" />
+<!-- <img src="media/image2.png" style="width:6.15959in;height:1.34741in" /> -->
 
 There is also a need to traverse upwards to its root. This can be solved
 by creating another link with the parent directory. Although this
 technically becomes a Graph, but implementation will be like a binary
 tree in a broad level and like linked list in a directory level.
 
-<img src="media/image3.png" style="width:6.25786in;height:1.36891in" />
+<!-- <img src="media/image3.png" style="width:6.25786in;height:1.36891in" /> -->
 
 ## Execution of Solution:
 
